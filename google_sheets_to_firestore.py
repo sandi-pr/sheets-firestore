@@ -171,9 +171,7 @@ for row in data_dicts:
             print(f"{Colors.WARNING}Tanggal last_update tidak dapat diparsing: '{existing_last_update_str}' atau '{new_last_update_str}'. Akan tetap diperbarui.{Colors.ENDC}")
             updated_count += 1
     else:
-        print("\n")
         print(f"{Colors.OKGREEN}Event baru '{doc_data['event_name']}' pada '{doc_data['date']}' ditambahkan.{Colors.ENDC}")
-        print("\n")
         added_count += 1
 
     # # Mendownload gambar dari URL postingan Facebook
